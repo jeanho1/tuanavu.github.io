@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Tuan Vu"
 title_separator          : "-"
-name                     : &name "Michael Rose"
+name                     : &name "Tuan Vu"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://tuanavu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "TuanVu8"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -67,22 +67,22 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://facebook.com/michaelrose"
+    - "https://twitter.com/TuanVu8"
+    - "https://www.facebook.com/tuan.vu.37625"
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3"
+    tracking_id          : 
 
 
 # Site Author
 author:
   name             : *name
   avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  bio              : "Data Scientist, Machine Learning researcher"
+  location         : "Irvine, CA"
   email            :
   uri              : "https://tuanavu.github.io"
   bitbucket        :
@@ -91,12 +91,12 @@ author:
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : "mmistakes"
+  github           : "tuanavu"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        : 
   lastfm           :
-  linkedin         :
+  linkedin         : "tuanavu"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
