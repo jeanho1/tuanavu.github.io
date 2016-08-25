@@ -8,9 +8,11 @@ modified: 2016-04-18T16:39:37-04:00
 
 {% include base_path %}
 
+
 <div class="grid__wrapper">
+  <h3><a href="{{ site.url}}/posts/">Articles</a></h3>
   {% for post in site.posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html %}
   {% endfor %}
 </div>
 <!--{% capture written_year %}'None'{% endcapture %}-->
