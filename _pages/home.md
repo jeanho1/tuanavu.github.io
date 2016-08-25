@@ -8,6 +8,10 @@ modified: 2016-04-18T16:39:37-04:00
 
 {% include base_path %}
 
+{% if page.image.feature %}<div class="image-wrap">
+  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
+  {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
+</div><!-- /.image-wrap -->{% endif %}
 
 <div class="grid__wrapper">
   <h3><a href="{{ site.url}}/categories/">Articles</a></h3>
