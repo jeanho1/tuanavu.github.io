@@ -8,7 +8,7 @@ header:
   cta_url: "/docs/quick-start-guide/"
   caption:
 excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.3">Latest release v3.4.3</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-<!--feature_row:-->
+feature_row:
 <!--  - image_path: mm-customizable-feature.png-->
 <!--    alt: "customizable"-->
 <!--    title: "Super Customizable"-->
@@ -27,6 +27,17 @@ excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs,
 <!--    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"-->
 <!--    url: "/docs/license/"-->
 <!--    btn_label: "Learn More"-->
+
+<!--github:-->
+<!--  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'-->
+<!--intro:-->
+<!--  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'-->
+---
+
+<!--{% include feature_row id="intro" type="center" %}-->
+
+<!--{% include feature_row %}-->
+
 <div id="index">
   <h3><a href="{{ site.url}}/posts/">Recent Projects</a></h3>
   {% for post in site.posts limit:5 %}    
@@ -40,12 +51,3 @@ excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs,
   </article>
   {% endfor %}
 </div><!-- /#index -->
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
----
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
