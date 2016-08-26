@@ -27,7 +27,7 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Articles"
+  - title: "Posts"
     url: /year-archive/
     
   - title: "Categories"
