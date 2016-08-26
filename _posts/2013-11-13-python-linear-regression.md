@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Simple Linear Regression with Python
-description: "A simple example of performing linear regression with python"
 category: articles
 tags: [python,linear regression,statistics]
 ---
