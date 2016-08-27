@@ -11,7 +11,7 @@ tags:
 
 This tutorial was contributed by [Justin Johnson](http://cs.stanford.edu/people/jcjohns/).
 
-{% include toc icon="gears" title="My Table of Contents" %}
+{% include toc icon="gears" title="Table of Contents" %}
 
 We will use the Python programming language for all assignments in this course.
 Python is a great general-purpose programming language on its own, but with the
