@@ -1,6 +1,9 @@
 ---
 layout: archive
 permalink: /
+header:
+  image: unsplash-image-6.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 author_profile: true
 modified: 2016-08-26T16:39:37-04:00
 ---
