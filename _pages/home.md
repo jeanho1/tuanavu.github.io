@@ -8,10 +8,8 @@ modified: 2016-04-18T16:39:37-04:00
 
 {% include base_path %}
 
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-  {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
-</div><!-- /.image-wrap -->{% endif %}
+<h2>Spectacular Mountain</h2>
+<img src="../images/map_header.jpg" alt="Mountain View" style="width:304px;height:228px;">
 
 <div class="grid__wrapper">
   {% for post in site.categories.articles limit:5 %}
