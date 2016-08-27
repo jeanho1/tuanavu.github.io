@@ -26,7 +26,6 @@ I'm a Data Scientist and a Machine Learning enthusiast. I write about Data Scien
   * Bayesian Statistics
 * Data Science
 * Big Data
-* Data Science
 * Statistics
 * Data Analysis
 * Data Mining
