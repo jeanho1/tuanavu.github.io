@@ -14,7 +14,6 @@ modified: 2016-04-18T16:39:37-04:00
 </div><!-- /.image-wrap -->{% endif %}
 
 <div class="grid__wrapper">
-  <h3><a href="{{ site.url}}/categories/">Latest Posts</a></h3>
   {% for post in site.categories.articles limit:5 %}
     {% include archive-single.html %}
   {% endfor %}
