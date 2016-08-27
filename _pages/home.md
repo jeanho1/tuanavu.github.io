@@ -1,9 +1,6 @@
 ---
 layout: archive
 permalink: /
-header:
-  overlay_color: "#5e616c"
-  overlay_image: map_header.jpg
 author_profile: true
 modified: 2016-04-18T16:39:37-04:00
 ---
