@@ -1,7 +1,11 @@
 ---
 layout: page
+permalink: /
 title: Latest Posts
 excerpt: "An archive of articles sorted by date."
+author_profile: true
+modified: 2016-04-18T16:39:37-04:00
+
 ---
 
 <ul class="post-list">
