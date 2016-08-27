@@ -2,7 +2,7 @@
 layout: archive
 permalink: /
 header:
-  image: https://unsplash.it/g/1200/800?random
+  image: https://unsplash.it/g/2000/600?random
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 author_profile: true
 modified: 2016-08-26T16:39:37-04:00
