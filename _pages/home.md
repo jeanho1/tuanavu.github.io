@@ -1,15 +1,30 @@
 ---
-layout: page
+layout: archive
 permalink: /
-title: Latest Posts
-excerpt: "An archive of articles sorted by date."
+title: "Latest Posts"
 author_profile: true
 modified: 2016-04-18T16:39:37-04:00
-
 ---
 
-<ul class="post-list">
-{% for post in site.categories.articles %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+{% include base_path %}
+
+{% if page.image.feature %}<div class="image-wrap">
+  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
+  {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
+</div><!-- /.image-wrap -->{% endif %}
+
+<div class="grid__wrapper">
+  <h3><a href="{{ site.url}}/categories/">Latest Posts</a></h3>
+  {% for post in site.categories.articles limit:5 %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
+<!--{% capture written_year %}'None'{% endcapture %}-->
+<!--{% for post in site.posts %}-->
+<!--  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}-->
+<!--  {% if year != written_year %}-->
+<!--    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>-->
+<!--    {% capture written_year %}{{ year }}{% endcapture %}-->
+<!--  {% endif %}-->
+<!--  {% include archive-single.html %}-->
+<!--{% endfor %}-->
