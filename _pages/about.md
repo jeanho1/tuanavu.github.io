@@ -31,6 +31,8 @@ I'm a Data Scientist and a Machine Learning enthusiast. I write about Data Scien
 * Data Analysis
 * Data Mining
 * Computer Vision
+* Natural Language Processing
 * Entrepreneurship
+* Music
 * Swimming
 * Taekwondo
