@@ -83,7 +83,7 @@ to express very powerful ideas in very few lines of code while being very
 readable. As an example, here is an implementation of the classic quicksort
 algorithm in Python:
 
-{% highlight python %}
+```python
 def quicksort(arr)
     if len(arr) <= 1:
         return arr
@@ -95,7 +95,7 @@ def quicksort(arr)
     
 print quicksort([3,6,8,10,1,2,1])
 # Prints "[1, 1, 2, 3, 6, 8, 10]"
-{% endhighlight %}
+```
 
 ### Python versions
 There are currently two different supported versions of Python, 2.7 and 3.4.
