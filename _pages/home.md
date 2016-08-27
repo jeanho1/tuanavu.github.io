@@ -14,9 +14,9 @@ modified: 2016-04-18T16:39:37-04:00
 <!--</div><!-- /.image-wrap -->-->
 <!--{% endif %}-->
 
-{% include _browser-upgrade.html %}
+<!--{% include _browser-upgrade.html %}-->
 
-{% include _navigation.html %}
+<!--{% include _navigation.html %}-->
 
 {% if page.image.feature %}
   <div class="image-wrap">
