@@ -7,12 +7,6 @@ tags:
   - Tutorial
 ---
 
----
-layout: page
-title: Python Numpy Tutorial
-permalink: /python-numpy-tutorial/
----
-
 <!--
 Python:
   Simple data types
