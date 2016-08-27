@@ -1,11 +1,34 @@
 ---
-title: "IPython Tutorial"
+title: "Python Numpy Tutorial"
 categories:
-  - IPython
+  - python
 tags:
-  - IPython
-  - Tutorial
+  - python
+  - numpy
+  - tutorial
 ---
+
+
+This tutorial was contributed by [Justin Johnson](http://cs.stanford.edu/people/jcjohns/).
+
+{% include toc icon="gears" title="My Table of Contents" %}
+
+We will use the Python programming language for all assignments in this course.
+Python is a great general-purpose programming language on its own, but with the
+help of a few popular libraries (numpy, scipy, matplotlib) it becomes a powerful
+environment for scientific computing.
+
+We expect that many of you will have some experience with Python and numpy;
+for the rest of you, this section will serve as a quick crash course both on
+the Python programming language and on the use of Python for scientific
+computing.
+
+Some of you may have previous knowledge in Matlab, in which case we also recommend the [numpy for Matlab users](http://wiki.scipy.org/NumPy_for_Matlab_Users) page.
+
+You can also find an [IPython notebook version of this tutorial here](https://github.com/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb) created by [Volodymyr Kuleshov](http://web.stanford.edu/~kuleshov/) and [Isaac Caswell](https://symsys.stanford.edu/viewing/symsysaffiliate/21335) for [CS 228](http://cs.stanford.edu/~ermon/cs228/index.html).
+
+
+<!-- {% include toc icon="gears" title="My Table of Contents" %} -->
 
 <!--
 Python:
@@ -23,25 +46,6 @@ Python:
 
 Numpy
 -->
-
-This tutorial was contributed by [Justin Johnson](http://cs.stanford.edu/people/jcjohns/).
-
-We will use the Python programming language for all assignments in this course.
-Python is a great general-purpose programming language on its own, but with the
-help of a few popular libraries (numpy, scipy, matplotlib) it becomes a powerful
-environment for scientific computing.
-
-We expect that many of you will have some experience with Python and numpy;
-for the rest of you, this section will serve as a quick crash course both on
-the Python programming language and on the use of Python for scientific
-computing.
-
-Some of you may have previous knowledge in Matlab, in which case we also recommend the [numpy for Matlab users](http://wiki.scipy.org/NumPy_for_Matlab_Users) page.
-
-You can also find an [IPython notebook version of this tutorial here](https://github.com/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb) created by [Volodymyr Kuleshov](http://web.stanford.edu/~kuleshov/) and [Isaac Caswell](https://symsys.stanford.edu/viewing/symsysaffiliate/21335) for [CS 228](http://cs.stanford.edu/~ermon/cs228/index.html).
-
-
-{% include toc icon="gears" title="My Table of Contents" %}
 
 <!-- Table of contents:
 
@@ -102,7 +106,6 @@ For this class all code will use Python 2.7.
 You can check your Python version at the command line by running
 `python --version`.
 
-<a name='python-basic'></a>
 
 ### Basic data types
 
@@ -175,12 +178,8 @@ print '  world '.strip()  # Strip leading and trailing whitespace; prints "world
 {% endhighlight %}
 You can find a list of all string methods [in the documentation](https://docs.python.org/2/library/stdtypes.html#string-methods).
 
-<a name='python-containers'></a>
-
 ### Containers
 Python includes several built-in container types: lists, dictionaries, sets, and tuples.
-
-<a name='python-lists'></a>
 
 #### Lists
 A list is the Python equivalent of an array, but is resizeable
@@ -264,8 +263,6 @@ even_squares = [x ** 2 for x in nums if x % 2 == 0]
 print even_squares  # Prints "[0, 4, 16]"
 {% endhighlight %}
 
-<a name='python-dicts'></a>
-
 #### Dictionaries
 A dictionary stores (key, value) pairs, similar to a `Map` in Java or
 an object in Javascript. You can use it like this:
@@ -314,8 +311,6 @@ even_num_to_square = {x: x ** 2 for x in nums if x % 2 == 0}
 print even_num_to_square  # Prints "{0: 0, 2: 4, 4: 16}"
 {% endhighlight %}
 
-<a name='python-sets'></a>
-
 #### Sets
 A set is an unordered collection of distinct elements. As a simple example, consider
 the following:
@@ -358,8 +353,6 @@ nums = {int(sqrt(x)) for x in range(30)}
 print nums  # Prints "set([0, 1, 2, 3, 4, 5])"
 {% endhighlight %}
 
-<a name='python-tuples'></a>
-
 #### Tuples
 A tuple is an (immutable) ordered list of values.
 A tuple is in many ways similar to a list; one of the most important differences is that
@@ -374,8 +367,6 @@ print d[t]       # Prints "5"
 print d[(1, 2)]  # Prints "1"
 {% endhighlight %}
 [The documentation](https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences) has more information about tuples.
-
-<a name='python-functions'></a>
 
 ### Functions
 Python functions are defined using the `def` keyword. For example:
@@ -409,8 +400,6 @@ hello('Fred', loud=True)  # Prints "HELLO, FRED!"
 There is a lot more information about Python functions
 [in the documentation](https://docs.python.org/2/tutorial/controlflow.html#defining-functions).
 
-<a name='python-classes'></a>
-
 ### Classes
 
 The syntax for defining classes in Python is straightforward:
@@ -436,16 +425,12 @@ g.greet(loud=True)   # Call an instance method; prints "HELLO, FRED!"
 You can read a lot more about Python classes
 [in the documentation](https://docs.python.org/2/tutorial/classes.html).
 
-<a name='numpy'></a>
-
 ## Numpy
 
 [Numpy](http://www.numpy.org/) is the core library for scientific computing in Python.
 It provides a high-performance multidimensional array object, and tools for working with these
 arrays. If you are already familiar with MATLAB, you might find
 [this tutorial useful](http://wiki.scipy.org/NumPy_for_Matlab_Users) to get started with Numpy.
-
-<a name='numpy-arrays'></a>
 
 ### Arrays
 A numpy array is a grid of values, all of the same type, and is indexed by a tuple of
@@ -496,8 +481,6 @@ print e                     # Might print "[[ 0.91940167  0.08143941]
 {% endhighlight %}
 You can read about other methods of array creation
 [in the documentation](http://docs.scipy.org/doc/numpy/user/basics.creation.html#arrays-creation).
-
-<a name='numpy-array-indexing'></a>
 
 ### Array indexing
 Numpy offers several ways to index into arrays.
@@ -648,8 +631,6 @@ For brevity we have left out a lot of details about numpy array indexing;
 if you want to know more you should
 [read the documentation](http://docs.scipy.org/doc/numpy/reference/arrays.indexing.html).
 
-<a name='numpy-datatypes'></a>
-
 ### Datatypes
 Every numpy array is a grid of elements of the same type.
 Numpy provides a large set of numeric datatypes that you can use to construct arrays.
@@ -671,8 +652,6 @@ print x.dtype                         # Prints "int64"
 {% endhighlight %}
 You can read all about numpy datatypes
 [in the documentation](http://docs.scipy.org/doc/numpy/reference/arrays.dtypes.html).
-
-<a name='numpy-math'></a>
 
 ### Array math
 Basic mathematical functions operate elementwise on arrays, and are available
@@ -781,8 +760,6 @@ print v.T  # Prints "[1 2 3]"
 Numpy provides many more functions for manipulating arrays; you can see the full list
 [in the documentation](http://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html).
 
-
-<a name='numpy-broadcasting'></a>
 
 ### Broadcasting
 Broadcasting is a powerful mechanism that allows numpy to work with arrays of different
@@ -936,8 +913,6 @@ know about numpy, but is far from complete. Check out the
 [numpy reference](http://docs.scipy.org/doc/numpy/reference/)
 to find out much more about numpy.
 
-<a name='scipy'></a>
-
 ## SciPy
 Numpy provides a high-performance multidimensional array and basic tools to
 compute with and manipulate these arrays.
@@ -950,8 +925,6 @@ The best way to get familiar with SciPy is to
 [browse the documentation](http://docs.scipy.org/doc/scipy/reference/index.html).
 We will highlight some parts of SciPy that you might find useful for this class.
 
-<a name='scipy-image'></a>
-
 ### Image operations
 SciPy provides some basic functions to work with images.
 For example, it has functions to read images from disk into numpy arrays,
@@ -962,7 +935,7 @@ Here is a simple example that showcases these functions:
 from scipy.misc import imread, imsave, imresize
 
 # Read an JPEG image into a numpy array
-img = imread('post_images/numpy-tutorial/cat.jpg')
+img = imread('post_images/2016-08-26-numpy-tutorial/cat.jpg')
 print img.dtype, img.shape  # Prints "uint8 (400, 248, 3)"
 
 # We can tint the image by scaling each of the color channels
@@ -977,12 +950,12 @@ img_tinted = img * [1, 0.95, 0.9]
 img_tinted = imresize(img_tinted, (300, 300))
 
 # Write the tinted image back to disk
-imsave('post_images/numpy-tutorial/cat_tinted.jpg', img_tinted)
+imsave('post_images/2016-08-26-numpy-tutorial/cat_tinted.jpg', img_tinted)
 {% endhighlight %}
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/numpy-tutorial/cat.jpg'>
-  <img src='/post_images/numpy-tutorial/cat_tinted.jpg'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/cat.jpg'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/cat_tinted.jpg'>
   <div class='figcaption'>
     Left: The original image.
     Right: The tinted and resized image.
@@ -1031,14 +1004,10 @@ A similar function (`scipy.spatial.distance.cdist`) computes the distance betwee
 across two sets of points; you can read about it
 [in the documentation](http://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cdist.html).
 
-<a name='matplotlib'></a>
-
 ## Matplotlib
 [Matplotlib](http://matplotlib.org/) is a plotting library. 
 In this section give a brief introduction to the `matplotlib.pyplot` module,
 which provides a plotting system similar to that of MATLAB.
-
-<a name='matplotlib-plot'></a>
 
 ### Plotting
 The most important function in matplotlib is `plot`,
@@ -1060,7 +1029,7 @@ plt.show()  # You must call plt.show() to make graphics appear.
 Running this code produces the following plot:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/numpy-tutorial/sine.png'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/sine.png'>
 </div>
 
 With just a little bit of extra work we can easily plot multiple lines
@@ -1085,13 +1054,11 @@ plt.legend(['Sine', 'Cosine'])
 plt.show()
 {% endhighlight %}
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/numpy-tutorial/sine_cosine.png'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/sine_cosine.png'>
 </div>
 
 You can read much more about the `plot` function
 [in the documentation](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot).
-
-<a name='matplotlib-subplots'></a>
 
 ### Subplots
 You can plot different things in the same figure using the `subplot` function.
@@ -1124,13 +1091,11 @@ plt.show()
 {% endhighlight %}
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/numpy-tutorial/sine_cosine_subplot.png'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/sine_cosine_subplot.png'>
 </div>
 
 You can read much more about the `subplot` function
 [in the documentation](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.subplot).
-
-<a name='matplotlib-images'></a>
 
 ### Images
 You can use the `imshow` function to show images. Here is an example:
@@ -1140,7 +1105,7 @@ import numpy as np
 from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 
-img = imread('post_images/numpy-tutorial/cat.jpg')
+img = imread('post_images/2016-08-26-numpy-tutorial/cat.jpg')
 img_tinted = img * [1, 0.95, 0.9]
 
 # Show the original image
@@ -1158,5 +1123,5 @@ plt.show()
 {% endhighlight %}
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/numpy-tutorial/cat_tinted_imshow.png'>
+  <img src='/post_images/2016-08-26-numpy-tutorial/cat_tinted_imshow.png'>
 </div>
