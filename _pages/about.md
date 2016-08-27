@@ -17,19 +17,20 @@ modified: 2016-04-18T16:39:37-04:00
 
 {% include base_path %}
 
-I'm a Software and Machine Learning Engineer that recently graduated from Northeastern University with a degree in Computer Engineering.
+I'm a Data Scientist and a Machine Learning enthusiast. I write about Data Science, Statistics, Data Analysis, Data Mining, Machine Learning, Probability, and many other topics.
 
 ## I'm interested in
 
 * Machine Learning, especially:
   * Deep Learning
-  * Reinforcement Learning
   * Bayesian Statistics
-* Robotics
+* Data Science
+* Big Data
+* Data Science
+* Statistics
+* Data Analysis
+* Data Mining
 * Computer Vision
-* Network Science
-* Computational Neuroscience
 * Entrepreneurship
-* Skiing
-* Surfing (badly)
-* Baseball
+* Swimming
+* Taekwondo
