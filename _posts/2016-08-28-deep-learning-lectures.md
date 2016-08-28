@@ -1,17 +1,7 @@
----
-title: "Deep Learning lectures"
-categories:
-  - deep-learning
-tags:
-  - python
-  - deep-learning
-  - machine-learning
-  - lectures
----
 
-__This post highlights some great lectures about deep learning__
+# Objective
 
-{% include toc icon="gears" title="Table of Contents" %}
+- This post highlights some great lectures about deep learning.
 
 # Stanford CS229
 
@@ -30,7 +20,7 @@ The good news is that the organizers have made [available](http://www.mlss2014.
 
 In this post I posted Dr. Le’s lecture videos and added content links with short descriptions to help you navigate them better.
 
-<tbody><tr class="active">
+<table>
     <th>Event Type</th><th>Description</th><th>Course Materials</th>
   </tr>
   <tr>
@@ -57,6 +47,7 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
     </td>
   </tr>
 </tbody>
+</table>
 
 # CS231n: Convolutional Neural Networks for Visual Recognition
 
@@ -70,7 +61,7 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
 
 **Syllabus**
 
-<tbody><tr class="active">
+<table>
     <th>Event Type</th><th>Date</th><th>Description</th><th>Course Materials</th>
   </tr>
   <tr>
@@ -343,4 +334,4 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
       <a href="http://cs231n.stanford.edu/reports2016.html">[reports]</a>
     </td>
   </tr>
-</tbody>
+</table>
