@@ -73,7 +73,6 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
 
 <table>
     <th>Event Type</th><th>Date</th><th>Description</th><th>Course Materials</th>
-  </tr>
   <tr>
     <td>Lecture</td>
     <td>Jan 4</td>
