@@ -1,11 +1,21 @@
+---
+title: "Deep Learning lectures"
+categories:
+  - deep-learning
+tags:
+  - python
+  - deep-learning
+  - machine-learning
+  - lectures
+---
 
-# Objective
+__This post highlights some great lectures about deep learning__
 
-- This post highlights some great lectures about deep learning.
+{% include toc icon="gears" title="Table of Contents" %}
 
 # Stanford CS229
 
-- One [[Original lectures]](http://cs229.stanford.edu/materials/CS229-DeepLearning.pdf) which gives an intro about deep learning.
+- Only 1 [[slide]](http://cs229.stanford.edu/materials/CS229-DeepLearning.pdf) which gives an intro about deep learning.
 
 # Quoc Le’s Lectures on Deep Learning
 
@@ -139,9 +149,9 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
       <a href="http://cs231n.github.io/neural-networks-1/">Neural Nets notes 1</a><br>
       <a href="http://cs231n.github.io/neural-networks-2/">Neural Nets notes 2</a><br>
       <a href="http://cs231n.github.io/neural-networks-3/">Neural Nets notes 3</a><br>
-      tips/tricks: 
-      <a href="http://research.microsoft.com/pubs/192769/tricks-2012.pdf">[1]</a>, 
-      <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf">[2]</a>, 
+      tips/tricks:
+      <a href="http://research.microsoft.com/pubs/192769/tricks-2012.pdf">[1]</a>,
+      <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf">[2]</a>,
       <a href="http://arxiv.org/pdf/1206.5533v2.pdf">[3]</a> (optional)
       <br>
       <a href="http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html">Deep Learning [Nature]</a> (optional)
@@ -187,7 +197,7 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
     <td>
       ConvNets for spatial localization<br>
       Object detection</td>
-    
+
     <td>
       <a href="slides/winter1516_lecture8.pdf">[slides]</a>
       <a href="https://www.youtube.com/watch?v=8inugqHkfvE&list=PLwQyV9I_3POsyBPRNUU_ryNfXzgfkiw2p&index=8"><b>[video]</b></a>
@@ -197,7 +207,7 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
     <td>Lecture</td>
     <td>Feb 3</td>
     <td>
-      Understanding and visualizing Convolutional Neural Networks<br> 
+      Understanding and visualizing Convolutional Neural Networks<br>
       Backprop into image: Visualizations, deep dream, artistic style transfer<br>
       Adversarial fooling examples<br>
     </td>
@@ -252,7 +262,7 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
     <td>Feb 17</td>
     <td>
       Training ConvNets in practice<br>
-      Data augmentation, transfer learning<br> 
+      Data augmentation, transfer learning<br>
       Distributed training, CPU/GPU bottlenecks<br>
       Efficient convolutions<br>
     </td>
