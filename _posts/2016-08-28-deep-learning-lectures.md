@@ -13,11 +13,13 @@ __This post highlights some great lectures about deep learning__
 
 {% include toc icon="gears" title="Table of Contents" %}
 
-# Stanford CS229
+
+## Stanford CS229
 
 - Only 1 [[slide]](http://cs229.stanford.edu/materials/CS229-DeepLearning.pdf) which gives an intro about deep learning.
 
-# Quoc Le’s Lectures on Deep Learning
+
+## Quoc Le’s Lectures on Deep Learning
 
 - [[Original lectures]](http://www.trivedigaurav.com/blog/quoc-les-lectures-on-deep-learning)
 - If you are interested in high level overview of deep learning, these lectures will be a great for your needs. The lectures only have 3 videos of 1 hour each.
@@ -32,7 +34,6 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
 
 <table>
     <th>Event Type</th><th>Description</th><th>Course Materials</th>
-  </tr>
   <tr>
     <td>Lecture</td>
     <td>Neural Networks Review</td>
@@ -56,10 +57,10 @@ In this post I posted Dr. Le’s lecture videos and added content links with sho
     <a href="https://github.com/tuanavu/data-science-notebooks/blob/master/deep-learning/quoc-le-lectures/deep-learning-tutorial2.pdf">[deep-learning-tutorial-2]</a><br>    
     </td>
   </tr>
-</tbody>
 </table>
 
-# CS231n: Convolutional Neural Networks for Visual Recognition
+
+## CS231n: Convolutional Neural Networks for Visual Recognition
 
 - This class teaches you how to apply deep learning on Computer Vision. A faily practical class on using Python for machine learning tasks.
 - Links:
