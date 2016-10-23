@@ -14,6 +14,8 @@ tags:
 - Author: Sebastian Raschka
 - [Github](https://github.com/rasbt/python-machine-learning-book)
 
+{% include toc icon="gears" title="Table of Contents" %}
+
 # 1. Machine Learning - Giving Computers the Ability to Learn from Data
 
 __Overview__:
@@ -31,11 +33,9 @@ __Notebooks__:
 __Overview__:
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__   
-\begin{equation}
-\phi (z)
-\end{equation}
 
-    - the activation function $\phi (z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
+    - <p>_{x=0}^n f(x)</p>
+    - the activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cphi%20%28z%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\phi (z)" width="39" height="19" /> is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
     \begin{array}\\
