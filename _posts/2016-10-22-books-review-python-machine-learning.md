@@ -10,24 +10,7 @@ tags:
   - book
 ---
 
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% include toc icon="gears" title="Table of Contents" %}
 
 - Book: [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130)
 - Author: Sebastian Raschka
@@ -49,9 +32,8 @@ __Notebooks__:
 
 __Overview__:
 
-- __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__
-    - $\phi(z)$
-    - the activation function <img src="http://latex.codecogs.com/gif.latex?\phi (z)" border="0"/> is a simple unit step function, which is sometimes also called the Heaviside step function: $
+- __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
+    - the activation function $\phi (z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
     \begin{array}\\
@@ -74,12 +56,12 @@ $.
 </div>
 
 __Notebooks__:
-- [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02/ch02.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch02/ch02.ipynb)]
+  - [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02/ch02.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch02/ch02.ipynb)]
 
 __Code__:
-- [[Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)]
-- [[Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)]
-- [[Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)]
+  - [[Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)]
+  - [[Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)]
+  - [[Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)]
 
 # 3. A Tour of Machine Learning Classifiers Using Scikit-Learn
 
@@ -91,23 +73,7 @@ __Overview__:
 - Large scale machine learning and stochastic gradient descent
 
 __Notebooks__:
-- [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03/ch03.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch03/ch03.ipynb)]
+  - [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03/ch03.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch03/ch03.ipynb)]
 
 __Code__:
-- [[Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)]
-
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
+  - [[Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)]
