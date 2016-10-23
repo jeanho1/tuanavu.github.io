@@ -30,7 +30,11 @@ __Notebooks__:
 
 __Overview__:
 
-- __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
+- __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__   
+\begin{equation}
+\phi (z)
+\end{equation}
+
     - the activation function $\phi (z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
@@ -42,7 +46,7 @@ __Overview__:
 $.
 
 <div class='post image'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/Screen Shot 2016-10-22 at 9.50.14 PM.png'>
+  <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.50.14 PM.png'>
 </div>
 
 - __[Adaptive Linear Neuron](https://en.wikipedia.org/wiki/ADALINE)__
@@ -50,7 +54,7 @@ $.
     - While the linear activation function is used for learning the weights, a quantizer, which is similar to the unit step function that we have seen before, can then be used to predict the class labels.
 
 <div class='post image'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/Screen Shot 2016-10-22 at 9.54.42 PM.png'>
+  <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.54.42 PM.png'>
 </div>
 
 __Notebooks__:
