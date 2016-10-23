@@ -62,9 +62,9 @@ __Notebooks__:
 
 __Code__:
 
-- [[Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)]
-- [[Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)]
-- [[Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)]
+- [Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)
+- [Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)
+- [Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)
 
 # 3. A Tour of Machine Learning Classifiers Using Scikit-Learn
 
@@ -81,4 +81,4 @@ __Notebooks__:
 
 __Code__:
 
-- [[Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)]
+- [Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)
