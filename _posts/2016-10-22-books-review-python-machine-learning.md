@@ -34,12 +34,10 @@ __Overview__:
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__   
 
-```tex
-\phi (z)
-```
-```tex2img
-\phi (z)
-```
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
     - the activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cphi%20%28z%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\phi (z)" width="39" height="19" /> is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
