@@ -34,7 +34,7 @@ __Overview__:
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__   
 
-    - <p>_{x=0}^n f(x)</p>
+$\_{x=0}^n f(x)$
     - the activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cphi%20%28z%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\phi (z)" width="39" height="19" /> is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
