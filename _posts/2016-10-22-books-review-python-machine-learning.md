@@ -26,6 +26,7 @@ Intro to three different types of machine learning:
 - Reinforcement learning
 
 __Notebooks__:
+
 - [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch01)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch01/ch01.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch01/ch01.ipynb)]
 
 # 2. Training Machine Learning Algorithms for Classification
@@ -56,12 +57,14 @@ $.
 </div>
 
 __Notebooks__:
-  - [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02/ch02.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch02/ch02.ipynb)]
+
+- [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch02/ch02.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch02/ch02.ipynb)]
 
 __Code__:
-  - [[Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)]
-  - [[Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)]
-  - [[Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)]
+
+- [[Perceptron](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/perceptron.py)]
+- [[Adaptive linear neurons](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_linear_neuron.py)]
+- [[Adaptive with Stochastic Gradient Descent](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch01/adaptive_online_learning.py)]
 
 # 3. A Tour of Machine Learning Classifiers Using Scikit-Learn
 
@@ -73,7 +76,9 @@ __Overview__:
 - Large scale machine learning and stochastic gradient descent
 
 __Notebooks__:
-  - [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03/ch03.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch03/ch03.ipynb)]
+
+- [[dir](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03)] [[ipynb](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch03/ch03.ipynb)] [[nbviewer](http://nbviewer.ipython.org/github/rasbt/python-machine-learning-book/blob/master/code/ch03/ch03.ipynb)]
 
 __Code__:
-  - [[Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)]
+
+- [[Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)]
