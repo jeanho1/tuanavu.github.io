@@ -36,6 +36,10 @@ __Overview__:
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
     - the activation function $$\phi (z)$$ is a simple unit step function, which is sometimes also called the Heaviside step function:
 
+    <div class='post image'>
+      <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-23 at 8.55.25 PM.png'>
+    </div>
+
 $$\phi (z) = \left\{
     \begin{array}\\
         1 & \mbox{if } z \geq 0 \\
