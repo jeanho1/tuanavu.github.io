@@ -21,9 +21,9 @@ tags:
 __Overview__:
 
 Intro to three different types of machine learning:
-- Supervised learning
-- Unsupervised learning
-- Reinforcement learning
+  - Supervised learning
+  - Unsupervised learning
+  - Reinforcement learning
 
 __Notebooks__:
 
