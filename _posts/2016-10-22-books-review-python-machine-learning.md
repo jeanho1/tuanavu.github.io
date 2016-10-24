@@ -8,6 +8,8 @@ tags:
   - python
   - machine-learning
   - book
+header-includes:
+  - \usepackage{cleveref}
 ---
 
 {% include toc icon="gears" title="Table of Contents" %}
@@ -32,6 +34,10 @@ __Notebooks__:
 # 2. Training Machine Learning Algorithms for Classification
 
 __Overview__:
+
+$$
+y = -2.2x + 0.5
+$$
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
     - the activation function $\phi (z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
