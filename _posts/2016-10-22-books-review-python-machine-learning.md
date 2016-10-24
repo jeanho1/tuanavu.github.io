@@ -34,7 +34,7 @@ __Notebooks__:
 __Overview__:
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
-    - the activation function $\phi(z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
+    - the activation function $$\phi (z)$$ is a simple unit step function, which is sometimes also called the Heaviside step function: $$
 \phi (z) =
 \left\{
     \begin{array}\\
@@ -42,14 +42,14 @@ __Overview__:
         - 1 & \mbox{otherwise }
     \end{array}
 \right.
-$.
+$$.
 
 <div class='post image'>
   <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.50.14 PM.png'>
 </div>
 
 - __[Adaptive Linear Neuron](https://en.wikipedia.org/wiki/ADALINE)__
-    - The key difference between the Adaline rule (also known as the Widrow-Hoff rule) and Rosenblatt's perceptron is that the weights are updated based on a linear activation function rather than a unit step function like in the perceptron. In Adaline, this linear activation function $\phi (z)$ is simply the identity function of the net input so that $\phi(w^Tx)= w^Tx$.
+    - The key difference between the Adaline rule (also known as the Widrow-Hoff rule) and Rosenblatt's perceptron is that the weights are updated based on a linear activation function rather than a unit step function like in the perceptron. In Adaline, this linear activation function $\phi (z)$ is simply the identity function of the net input so that $$\phi(w^Tx)= w^Tx$$.
     - While the linear activation function is used for learning the weights, a quantizer, which is similar to the unit step function that we have seen before, can then be used to predict the class labels.
 
 <div class='post image'>
@@ -82,52 +82,3 @@ __Notebooks__:
 __Code__:
 
 - [Sigmoid activation fuction](https://github.com/tuanavu/machine-learning-ipython-notebooks/blob/master/books/python-machine-learning-book/code/ch02/sigmoid.py)
-
-
-Let's test some inline math $x$, $y$, $x_1$, $y_1$.
-
-Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
-
-Test a display math:
-$$
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
-Is it O.K.?
-
-Test a display math with equation number:
-\begin{equation}
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-\end{equation}
-Is it O.K.?
-
-Test a display math with equation number:
-$$
-  \begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align}
-$$
-Is it O.K.?
-
-And test a display math without equaltion number:
-$$
-  \begin{align\*}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align\*}
-$$
-Is it O.K.?
-
-Test a display math with equation number:
-\begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align}
-Is it O.K.?
-
-And test a display math without equaltion number:
-\begin{align\*}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align\*}
-Is it O.K.?
