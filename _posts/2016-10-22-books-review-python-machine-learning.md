@@ -34,7 +34,7 @@ __Notebooks__:
 __Overview__:
 
 - __[Perceptron](https://en.wikipedia.org/wiki/Perceptron)__    
-    - the activation function $\phi (z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
+    - the activation function $\phi(z)$ is a simple unit step function, which is sometimes also called the Heaviside step function: $
 \phi (z) =
 \left\{
     \begin{array}\\
