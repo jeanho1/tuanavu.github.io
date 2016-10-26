@@ -68,11 +68,12 @@ __Overview__:
 
 - Logistic regression intuition and conditional probabilities
   - odds ratio: which is the odds in favor of a particular event, 
-$$\frac{p}{1 - p}$$, where p stands for the probability of the positive (1− p) event.
-\\( 1/x^{2} \\)
+
+\\(\frac{p}{1 - p}\\), where p stands for the probability of the positive (1− p) event.
+
 
   - logit function: the logarithm of the odds ratio (log-odds), 
-$$logit(p) = \log \frac{p}{1 - p}$$
+\\(logit(p) = \log \frac{p}{1 - p}\\)
 
   
 
