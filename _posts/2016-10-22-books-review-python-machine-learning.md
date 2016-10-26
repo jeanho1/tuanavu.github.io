@@ -71,7 +71,7 @@ __Overview__:
     - $$\frac{p}{1 - p}$$, where p stands for the probability of the positive (1− p) event.
 
   - logit function: the logarithm of the odds ratio (log-odds)
-    - $$logit(p) = \log \frac{p}{1 - p}$$
+    - $logit(p) = \log \frac{p}{1 - p}$
 
   
 
