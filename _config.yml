@@ -19,6 +19,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.13.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -117,7 +118,7 @@ author:
   bio              : "I am an amazing person."
   location         : "Irvine, CA"
   email            :  
-  uri              : "https://mademistakes.com"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -164,36 +165,36 @@ author:
 #       # url:
 
 
-# # Reading Files
-# include:
-#   - .htaccess
-#   - _pages
-# exclude:
-#   - "*.sublime-project"
-#   - "*.sublime-workspace"
-#   - vendor
-#   - .asset-cache
-#   - .bundle
-#   - .jekyll-assets-cache
-#   - .sass-cache
-#   - assets/js/plugins
-#   - assets/js/_main.js
-#   - assets/js/vendor
-#   - Capfile
-#   - CHANGELOG
-#   - config
-#   - Gemfile
-#   - Gruntfile.js
-#   - gulpfile.js
-#   - LICENSE
-#   - log
-#   - node_modules
-#   - package.json
-#   - Rakefile
-#   - README
-#   - tmp
-#   - /docs # ignore Minimal Mistakes /docs
-#   - /test # ignore Minimal Mistakes /test
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -244,7 +245,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
