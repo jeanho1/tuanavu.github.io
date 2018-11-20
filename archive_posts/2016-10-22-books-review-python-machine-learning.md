@@ -37,11 +37,11 @@ __Overview__:
     - the activation function $$\phi (z)$$ is a simple unit step function, which is sometimes also called the Heaviside step function:
 
 <div class='post image' align='center'>
-  <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-23 at 8.55.25 PM.png'>
+  <img src='/images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-23 at 8.55.25 PM.png'>
 </div>
 
 <div class='post image'>
-  <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.50.14 PM.png'>
+  <img src='/images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.50.14 PM.png'>
 </div>
 
 - __[Adaptive Linear Neuron](https://en.wikipedia.org/wiki/ADALINE)__
@@ -49,7 +49,7 @@ __Overview__:
     - While the linear activation function is used for learning the weights, a quantizer, which is similar to the unit step function that we have seen before, can then be used to predict the class labels.
 
 <div class='post image'>
-  <img src='/post_images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.54.42 PM.png'>
+  <img src='/images/2016-10-22-books-review-python-machine-learning/Screen Shot 2016-10-22 at 9.54.42 PM.png'>
 </div>
 
 __Notebooks__:

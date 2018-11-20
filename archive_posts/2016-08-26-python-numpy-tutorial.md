@@ -935,7 +935,7 @@ Here is a simple example that showcases these functions:
 from scipy.misc import imread, imsave, imresize
 
 # Read an JPEG image into a numpy array
-img = imread('post_images/2016-08-26-numpy-tutorial/cat.jpg')
+img = imread('images/2016-08-26-numpy-tutorial/cat.jpg')
 print img.dtype, img.shape  # Prints "uint8 (400, 248, 3)"
 
 # We can tint the image by scaling each of the color channels
@@ -950,12 +950,12 @@ img_tinted = img * [1, 0.95, 0.9]
 img_tinted = imresize(img_tinted, (300, 300))
 
 # Write the tinted image back to disk
-imsave('post_images/2016-08-26-numpy-tutorial/cat_tinted.jpg', img_tinted)
+imsave('images/2016-08-26-numpy-tutorial/cat_tinted.jpg', img_tinted)
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/cat.jpg'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/cat_tinted.jpg'>
+  <img src='/images/2016-08-26-numpy-tutorial/cat.jpg'>
+  <img src='/images/2016-08-26-numpy-tutorial/cat_tinted.jpg'>
   <div class='figcaption'>
     Left: The original image.
     Right: The tinted and resized image.
@@ -1029,7 +1029,7 @@ plt.show()  # You must call plt.show() to make graphics appear.
 Running this code produces the following plot:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/sine.png'>
+  <img src='/images/2016-08-26-numpy-tutorial/sine.png'>
 </div>
 
 With just a little bit of extra work we can easily plot multiple lines
@@ -1054,7 +1054,7 @@ plt.legend(['Sine', 'Cosine'])
 plt.show()
 ```
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/sine_cosine.png'>
+  <img src='/images/2016-08-26-numpy-tutorial/sine_cosine.png'>
 </div>
 
 You can read much more about the `plot` function
@@ -1091,7 +1091,7 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/sine_cosine_subplot.png'>
+  <img src='/images/2016-08-26-numpy-tutorial/sine_cosine_subplot.png'>
 </div>
 
 You can read much more about the `subplot` function
@@ -1105,7 +1105,7 @@ import numpy as np
 from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 
-img = imread('post_images/2016-08-26-numpy-tutorial/cat.jpg')
+img = imread('images/2016-08-26-numpy-tutorial/cat.jpg')
 img_tinted = img * [1, 0.95, 0.9]
 
 # Show the original image
@@ -1123,5 +1123,5 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/post_images/2016-08-26-numpy-tutorial/cat_tinted_imshow.png'>
+  <img src='/images/2016-08-26-numpy-tutorial/cat_tinted_imshow.png'>
 </div>
