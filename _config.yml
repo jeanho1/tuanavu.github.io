@@ -25,10 +25,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tuan Vu"
+title                    : "Apply Data Science"
 title_separator          : "-"
 name                     : &name "Tuan Vu"
-description              : &description "An amazing website."
+description              : &description "Apply Data Science"
 url                      : "https://tuanavu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tuanavu/tuanavu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -89,7 +89,7 @@ naver_site_verification  :
 twitter:
   username               : &twitter "TuanVu8"
 facebook:
-  username               : &facebook "tuan.vu.37625"
+  username               : &facebook "applydatascience"
   app_id                 :
   publisher              :
 og_image                 : # "site-logo.png" # Open Graph/Twitter default site image
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/images/bio-photo-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/data-science-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist"
   location         : "Irvine, CA"
   email            : 
@@ -123,7 +123,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "applydatascience"
+  facebook         : *facebook
   foursquare       :
   github           : "tuanavu"
   google_plus      :
@@ -150,7 +150,7 @@ footer:
       url: "https://twitter.com/TuanVu8"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/tuan.vu.37625"
+      url: "https://www.facebook.com/applydatascience"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tuanavu"
