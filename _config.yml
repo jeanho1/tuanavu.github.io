@@ -123,7 +123,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         : "applydatascience"
   foursquare       :
   github           : "tuanavu"
   google_plus      :
@@ -140,7 +140,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :  
+  youtube          : "https://www.youtube.com/channel/UCiWjUAmiF3v91NbHOKuPNow"
 
 # Site Footer
 footer:
