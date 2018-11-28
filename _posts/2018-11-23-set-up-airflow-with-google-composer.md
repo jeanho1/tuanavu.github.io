@@ -23,14 +23,14 @@ __We will learn how to set up airflow environment using Google Cloud Composer__
 
 ### Hosting Airflow on-premise
 
-Let's say you want to host Airflow on-premise. In another word, you host Airflow on your local server. There is a lot of problems with this approach:
+Let's say you want to host Airflow on-premise. In another word, you host Airflow on your local server. There are a lot of problems with this approach:
 - You will need to spend a lot of time doing DevOps work: create a new server, manage Airflow installation, takes care of dependency management, package management, make sure your server always up and running, then you have to deal with scaling and security issues...
 - If you don't want to deal with all of those DevOps problem, and instead just want to focus on your workflow, then Google Cloud composer is a great solution for you.
 
 ### Google Cloud Composer benefit
 
 - The nice thing about Google Cloud Composer is that you as a Data Engineer or Data Scientist don’t have to spend that much time on DevOps.
-- You just focus on your workflows (writing code), and let Composer manages the infrastructure.
+- You just focus on your workflows (writing code), and let Composer manage the infrastructure.
 - Of course you have to pay for the hosting service, but the cost is low compare to if you have to host a production airflow server on your own. This is an ideal solution if you are a startup in need of Airflow and you don’t have a lot of DevOps folks in-house.
 
 
@@ -107,7 +107,7 @@ Deployment is simple. Google Cloud Composer uses Cloud Storage to store Apache A
 - Auto deployment:
     - Your DAGs files are stored in a Git repository. You can set up a continuous integration pipeline to automatically deploy every time a merge request is done in the master branch.
 
-## More info
+## More information
 
 - [Cloud Composer official documentation](https://cloud.google.com/composer/docs/quickstart)
 - [Watch full talk from Google](https://www.youtube.com/watch?v=GeNFEtt-D4k): Live demo of getting a worfklow up and running in Google Cloud Composer.
