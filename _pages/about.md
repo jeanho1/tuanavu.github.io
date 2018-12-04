@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Welcome to Apply Data Science. A blog about Data Science, Big Data and Machine Learning topic."
 layouts_gallery:
   - url: mm-layout-splash.png
     image_path: mm-layout-splash.png
@@ -17,13 +17,16 @@ modified: 2016-08-26T16:39:37-04:00
 
 {% include base_path %}
 
-I'm a Data Scientist and a Machine Learning enthusiast. I write about Data Science, Statistics, Data Analysis, Data Mining, Machine Learning, Probability, and many other topics.
+My name is Tuan Vua Data Scientist  I created the Apply Data Science Channel as somewhere people from all backgrounds, countries etc can come and learn about Investing, Personal Finance and entrepreneurship!
+
+My name is Tuan Vu, and 
+
+I'm currently a Data Scientist and a Machine Learning enthusiast. I write about Data Science, Statistics, Data Analysis, Data Mining, Machine Learning, Probability, and many other topics.
 
 ## I'm interested in
 
-* Machine Learning, especially:
-  * Deep Learning
-  * Bayesian Statistics
+* Machine Learning
+* Deep Learning
 * Data Science
 * Big Data
 * Statistics
