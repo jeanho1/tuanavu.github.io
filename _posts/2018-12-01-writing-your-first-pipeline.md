@@ -1,5 +1,5 @@
 ---
-title: "Airflow tutorial 4: Writing your first workflow"
+title: "Airflow tutorial 4: Writing your first pipeline"
 categories:
   - airflow
 tags:
