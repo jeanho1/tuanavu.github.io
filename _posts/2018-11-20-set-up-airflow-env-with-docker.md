@@ -27,7 +27,9 @@ __We will learn how to set up airflow environment using Docker__
 
 ## Docker overview
 
-<img src="/images/2018-11-20-set-up-airflow-env-with-docker/docker-logo.png" width="300"/>  
+<figure style="width: 300px" class="align-center">     
+    <img src="/images/2018-11-20-set-up-airflow-env-with-docker/docker-logo.png" width="300"/>  
+</figure>
 
 - Docker is an open platform for developing, shipping, and running applications.
 - Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host, regardless of its operating system: Mac, Windows, PC, cloud, data center, ...
