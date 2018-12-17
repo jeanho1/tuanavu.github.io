@@ -16,7 +16,9 @@ __We will learn how to set up airflow environment using Google Cloud Composer__
 
 ## Overview of Cloud Composer
 
-<img src="/images/2018-11-23-set-up-airflow-with-google-composer/cloud-composer.png" />  
+<figure style="width: 200px" class="align-center">     
+    <img src="/images/2018-11-23-set-up-airflow-with-google-composer/cloud-composer.png" />
+</figure>  
 
 - A fully managed Apache Airflow to make workflow creation and management easy, powerful, and consistent.
 - Cloud Composer helps you create Airflow environments quickly and easily, so you can focus on your workflows and not your infrastructure.
@@ -83,10 +85,15 @@ Google Cloud composer is a new product from Google. With the latest push from Go
 
 - Choose how many nodes and disk size
 
-<img src="/images/2018-11-23-set-up-airflow-with-google-composer/Screen Shot 2018-11-26 at 3.45.49 PM.png" width="400" />
+<figure style="width: 400px" class="align-center">     
+    <img src="/images/2018-11-23-set-up-airflow-with-google-composer/Screen Shot 2018-11-26 at 3.45.49 PM.png" width="400" />
+</figure>  
 
 - Choose Airflow and Python version
-<img src="/images/2018-11-23-set-up-airflow-with-google-composer/Screen Shot 2018-11-26 at 3.46.11 PM.png" width="400" />
+
+<figure style="width: 400px" class="align-center">     
+    <img src="/images/2018-11-23-set-up-airflow-with-google-composer/Screen Shot 2018-11-26 at 3.46.11 PM.png" width="400" />
+</figure>
 
 #### A complete Composer environment
 
