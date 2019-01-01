@@ -93,7 +93,7 @@ localhost:8889/?token=7d229945745ecd113adc572d50d93c98e3552516ee65a432
 
 ## Building the data pipeline
 
-### Setup
+### Setting up
 
 In order to run this data pipeline example, you need to set up a few things first. Specifically:
 - Create a service account (Cloud Console)
