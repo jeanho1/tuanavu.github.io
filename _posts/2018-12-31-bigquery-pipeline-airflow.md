@@ -145,6 +145,7 @@ docker-compose -f docker-compose-gcloud.yml run --rm webserver airflow test bigq
 
 - [github-trend-analysis - jupyter notebook](https://github.com/tuanavu/airflow-tutorial/blob/master/notebooks/gcloud-example/github-trend-analysis.ipynb)
 - [Instruction to run this pipeline](https://github.com/tuanavu/airflow-tutorial/blob/master/docs/bigquery_github_trends.md)
+- [How to run a terabyte of queries each month without a credit card](https://www.youtube.com/watch?v=w4mzE--sprY)
 - [How to aggregate data for BigQuery using Apache Airflow](https://cloud.google.com/blog/products/gcp/how-to-aggregate-data-for-bigquery-using-apache-airflow)
 - [GitHub data, ready for you to explore with BigQuery](https://blog.github.com/2017-01-19-github-data-ready-for-you-to-explore-with-bigquery/)
 - [Hacker News on BigQuery](https://medium.com/@hoffa/hacker-news-on-bigquery-now-with-daily-updates-so-what-are-the-top-domains-963d3c68b2e2)
