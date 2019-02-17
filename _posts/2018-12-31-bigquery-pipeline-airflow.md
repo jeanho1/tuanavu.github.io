@@ -14,6 +14,8 @@ __In this tutorial, we will build a data pipeline using Google Cloud Bigquery an
 
 {% include video id="wAyu5BN3VpY" provider="youtube" %}
 
+The [GitHub links](https://github.com/tuanavu/airflow-tutorial/tree/v0.6) for this tutorial
+
 ## A quick look at this tutorial
 
 This tutorial is inspired by this [blog post](https://cloud.google.com/blog/products/gcp/how-to-aggregate-data-for-bigquery-using-apache-airflow) from the official Google Cloud blogs.

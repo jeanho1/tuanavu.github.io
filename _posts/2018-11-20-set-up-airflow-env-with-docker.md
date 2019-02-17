@@ -14,6 +14,8 @@ __We will learn how to set up airflow environment using Docker__
 
 {% include video id="vvr_WNzEXBE" provider="youtube" %}
 
+The [GitHub links](https://github.com/tuanavu/airflow-tutorial/tree/v0.2) for this tutorial
+
 ## Airflow problem
 
 - open source software grows at an overwhelming pace
