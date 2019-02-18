@@ -90,7 +90,7 @@ __Example usage__:
 
 ## Step 4: Tasks
 
-- The next step is to lay out all the tasks in the workflow.
+The next step is to lay out all the tasks in the workflow.
 
 {% raw %}
 ```python
@@ -161,11 +161,9 @@ t1 >> [t2, t3]
 
 ## Recap
 
-Basically, a DAG is just a Python file, which is used to organize tasks and set their execution context. DAGs do not perform any actual computation.
-
-Instead, tasks are the element of Airflow that actually “do the work” we want to be performed. And it is your job to write the configuration and organize the tasks in specific orders to create a complete data pipeline.
-
-Your final DAG will look like this:
+- Basically, a DAG is just a Python file, which is used to organize tasks and set their execution context. DAGs do not perform any actual computation.
+- Instead, tasks are the element of Airflow that actually “do the work” we want to be performed. And it is your job to write the configuration and organize the tasks in specific orders to create a complete data pipeline.
+- Your final DAG will look like this:
 
 {% raw %}
 ```python

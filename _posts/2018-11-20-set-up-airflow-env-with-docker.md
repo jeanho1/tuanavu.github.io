@@ -18,14 +18,14 @@ The [GitHub links](https://github.com/tuanavu/airflow-tutorial/tree/v0.2) for th
 
 ## Airflow problem
 
-open source software grows at an overwhelming pace
+- open source software grows at an overwhelming pace
 
 <img src="/images/2018-11-20-set-up-airflow-env-with-docker/Screen Shot 2018-11-21 at 1.52.13 PM.png" width="800"/>  
 
-Airflow is built to integrate with all databases, system, cloud environments, …
-- Managing and maintaining all of the dependencies changes will be really difficult.
-- Takes lots of time to set up, and config Airflow env.
-- How to share development and production environments for all developers.
+- Airflow is built to integrate with all databases, system, cloud environments, …
+	- Managing and maintaining all of the dependencies changes will be really difficult.
+	- Takes lots of time to set up, and config Airflow env.
+	- How to share development and production environments for all developers.
 
 ## Docker overview
 

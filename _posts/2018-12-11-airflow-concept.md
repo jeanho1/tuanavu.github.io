@@ -46,21 +46,21 @@ Graphs are used to solve many real-life problems because they are used to repres
 </figure> 
 
 
-__Undirected graph__: The relationship exists in both directions, the edge has no direction. Example: If Mary was a friend of Francis, Francis would likewise be a friend of Mary. 
+- __Undirected graph__: The relationship exists in both directions, the edge has no direction. Example: If Mary was a friend of Francis, Francis would likewise be a friend of Mary. 
 
-__Directed graph__ (digraph): Direction matters, since the edges in a graph are all one-way
-- An example graph: the course requirements for a computer science major.
-- The class prerequisites graph is clearly a __digraph__ since you must take some classes before others.
+- __Directed graph__ (digraph): Direction matters, since the edges in a graph are all one-way
+    - An example graph: the course requirements for a computer science major.
+    - The class prerequisites graph is clearly a __digraph__ since you must take some classes before others.
 
 <figure style="width: 500px" class="align-center">     
     <img src="/images/2018-12-11-airflow-concept/Screen Shot 2018-12-14 at 11.50.53 AM.png" >
 </figure> 
 
 
-__Acyclic graph__: a graph has no cycles.
-__Cyclic graph__: a graph has cycles.    
-- A cycle in a directed graph is a path that starts and ends at the same node.
-- For example, the path (V5,V2,V3,V5) is a cycle. This is a loop.
+- __Acyclic graph__: a graph has no cycles.
+- __Cyclic graph__: a graph has cycles.    
+    - A cycle in a directed graph is a path that starts and ends at the same node.
+    - For example, the path (V5,V2,V3,V5) is a cycle. This is a loop.
 
 <figure style="width: 400px" class="align-center">     
     <img src="/images/2018-12-11-airflow-concept/Screen Shot 2018-12-13 at 10.46.03 PM.png" height="400" width="400" >
@@ -83,8 +83,8 @@ It is useful to represent a complex data flows using a graph.
 
 
 Beside Airflow, there are other cutting edge big data/data science frameworks is built using graph data structure.
-__Tensorflow__ - An open source machine learning framework
-- TensorFlow uses a dataflow graph to represent your computation in terms of the dependencies between individual operations.
+- __Tensorflow__ - An open source machine learning framework
+    - TensorFlow uses a dataflow graph to represent your computation in terms of the dependencies between individual operations.
 
 <figure style="width: 300px" class="align-center">     
     <img src="https://www.tensorflow.org/images/tensors_flowing.gif">
