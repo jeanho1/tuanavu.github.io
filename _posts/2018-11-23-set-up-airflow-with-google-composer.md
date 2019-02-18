@@ -108,11 +108,11 @@ Google Cloud composer is a new product from Google. With the latest push from Go
 
 Deployment is simple. Google Cloud Composer uses Cloud Storage to store Apache Airflow DAGs, so you can easily add, update, and delete a DAG from your environment.
 
-- Manual deployment:
-    - You can drag-and-drop your Python `.py` file for the DAG to the Composer environment's `dags` folder in Cloud Storage to deploy new DAGs. Within seconds the DAG appears in the Airflow UI.
-    - Using gcloud sdk command to deploy a new dag.
-- Auto deployment:
-    - Your DAGs files are stored in a Git repository. You can set up a continuous integration pipeline to automatically deploy every time a merge request is done in the master branch.
+Manual deployment:
+- You can drag-and-drop your Python `.py` file for the DAG to the Composer environment's `dags` folder in Cloud Storage to deploy new DAGs. Within seconds the DAG appears in the Airflow UI.
+- Using gcloud sdk command to deploy a new dag.
+Auto deployment:
+- Your DAGs files are stored in a Git repository. You can set up a continuous integration pipeline to automatically deploy every time a merge request is done in the master branch.
 
 ## More information
 

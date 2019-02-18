@@ -16,17 +16,18 @@ __We will learn how to write our first DAG step by step__
 
 ## Steps to write an Airflow DAG
 
-- A DAG file, which is basically just a Python script, is a configuration file specifying the DAG's structure as code.
-- There are only 5 steps you need to remember to write an Airflow DAG or workflow:
-    - Step 1: Importing modules
-    - Step 2: Default Arguments
-    - Step 3: Instantiate a DAG
-    - Step 4: Tasks
-    - Step 5: Setting up Dependencies
+A DAG file, which is basically just a Python script, is a configuration file specifying the DAG's structure as code.
+
+There are only 5 steps you need to remember to write an Airflow DAG or workflow:
+- Step 1: Importing modules
+- Step 2: Default Arguments
+- Step 3: Instantiate a DAG
+- Step 4: Tasks
+- Step 5: Setting up Dependencies
 
 ## Step 1: Importing modules
 
-- Import Python dependencies needed for the workflow
+Import Python dependencies needed for the workflow
 
 ```python
 from datetime import timedelta
@@ -37,7 +38,8 @@ from airflow.operators.bash_operator import BashOperator
 ```
 
 ## Step 2: Default Arguments
-- Define default and DAG-specific arguments
+
+Define default and DAG-specific arguments
 
 ```python
 default_args = {
@@ -56,7 +58,8 @@ default_args = {
 ```
 
 ## Step 3: Instantiate a DAG
-- Give the DAG name, configure the schedule, and set the DAG settings
+
+Give the DAG name, configure the schedule, and set the DAG settings
 
 ```python
 dag = DAG(
@@ -125,8 +128,8 @@ t3 = BashOperator(
 
 ## Step 5: Setting up Dependencies
 
-- Set the dependencies or the order in which the tasks should be executed in.
-- Here’s a few ways you can define dependencies between them:
+- Set the dependencies or the order in which the tasks should be executed.
+- Here are a few ways you can define dependencies between them:
 
 ```python
 # This means that t2 will depend on t1
@@ -158,10 +161,11 @@ t1 >> [t2, t3]
 
 ## Recap
 
-- Basically a DAG is just a Python file, which is used to organize tasks and set their execution context. DAGs do not perform any actual computation. 
-- Instead, tasks are the element of Airflow that actually “do the work” we want performed. And it is your job to write the configuration and organize the tasks in specific orders to create a complete data pipeline.
+Basically, a DAG is just a Python file, which is used to organize tasks and set their execution context. DAGs do not perform any actual computation.
 
-- Your final DAG will look like this:
+Instead, tasks are the element of Airflow that actually “do the work” we want to be performed. And it is your job to write the configuration and organize the tasks in specific orders to create a complete data pipeline.
+
+Your final DAG will look like this:
 
 {% raw %}
 ```python

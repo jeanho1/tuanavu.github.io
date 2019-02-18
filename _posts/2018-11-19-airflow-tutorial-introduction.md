@@ -63,20 +63,20 @@ Example of a naive approach:
 
 ## Apache Airflow
 
-- The project joined the Apache Software Foundation’s incubation program in 2016.
-- A workflow (data-pipeline) management system developed by Airbnb
-    - A framework to define tasks & dependencies in python
-    - Executing, scheduling, distributing tasks accross worker nodes.
-    - View of present and past runs, logging feature
-    - Extensible through plugins
-    - Nice UI, possibility to define REST interface
-    - Interact well with database
-- Used by more than 200 companies: Airbnb, Yahoo, Paypal, Intel, Stripe,
+The project joined the Apache Software Foundation’s incubation program in 2016.
+A workflow (data-pipeline) management system developed by Airbnb
+- A framework to define tasks & dependencies in python
+- Executing, scheduling, distributing tasks accross worker nodes.
+- View of present and past runs, logging feature
+- Extensible through plugins
+- Nice UI, possibility to define REST interface
+- Interact well with database
+Used by more than 200 companies: Airbnb, Yahoo, Paypal, Intel, Stripe,...
 
 ### Airflow DAG
 
-- A workflow as a Directed Acyclic Graph (DAG) with multiple tasks which can be executed independently
-- Airflow DAGs are composed of Tasks
+- Workflow as a Directed Acyclic Graph (DAG) with multiple tasks which can be executed independently.
+- Airflow DAGs are composed of Tasks.
 
 <img src="/images/2018-11-19-airflow-tutorial-introduction/airflow-dag.png" height="800" width="800">
 

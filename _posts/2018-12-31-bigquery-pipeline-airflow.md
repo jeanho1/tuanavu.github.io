@@ -29,17 +29,17 @@ From the public datasets, we will create a data pipeline for aggregating daily s
 
 ## Overview of Google BigQuery
 
-Google BigQuery is a big data analytics product from Google that helps you run adhoc analysis on massive dataset using Google Cloud infrastructure. With the power BigQuery, you can run query to analyze terabytes of data within seconds.
+Google BigQuery is a big data analytics product from Google that helps you run ad-hoc analysis on massive dataset using Google Cloud infrastructure. With the power BigQuery, you can run a query to analyze terabytes of data within seconds.
 
 Some characteristics of Google BigQuery:
-- Serverless: is an execution model where the cloud provider (AWS, Google) will dynamically allocate the resources to run your code, and only charge for that amount of resources. 
-- Highly Scalable: can scale to ten of thousands of machines in Google Data Center.
-- High performance: massively parallel execution and automatic performance optimization.
-- High Availability: Automatically replicates data between zones to enable high availability. It also automatically load balances to provide optimal performance and to minimize the impact of any hardware failures.
+- __Serverless__: is an execution model where the cloud provider (AWS, Google) will dynamically allocate the resources to run your code, and only charge for that amount of resources. 
+- __Highly Scalable__: can scale to tens of thousands of machines in Google Data Center.
+- __High performance__: massively parallel execution and automatic performance optimization.
+- __High Availability__: Automatically replicates data between zones to enable high availability. It also automatically load balances to provide optimal performance and to minimize the impact of any hardware failures.
 
-Advantage of choosing Google BigQuery for this tutorial:
+The advantage of choosing Google BigQuery for this tutorial:
 - Access to [Google BigQuery public datasets](https://cloud.google.com/bigquery/public-data): Google pays for the storage of these datasets and provides public access to the data via your cloud project. You pay only for the queries that you perform on the data. Moreover, there’s a [1TB per month free tier](https://cloud.google.com/bigquery/pricing#pricing_summary) for queries, making getting started super easy.
-- Real time analysis of massive datasets
+- Real-time analysis of massive datasets
 - No-ops (no operations): no need to do operations work like setting up or maintaining any infrastructure. Just focus on your code.
 
 ### Working with Google BigQuery
@@ -50,7 +50,7 @@ Advantage of choosing Google BigQuery for this tutorial:
 - Search for [Bigquery](https://console.cloud.google.com/bigquery) in the navigation bar. 
 
 In this tutorial, we will be using 2 public datasets hosted on Google BigQuery:
-- Github Archive: 30 million events monthly, including issues, commits, and pushes on Github.
+- Github Archive: 30 million events monthly, including issues, commits and pushes on Github.
     - Link: [Data](https://bigquery.cloud.google.com/table/githubarchive:day.20181230) - [More info](https://blog.github.com/2017-01-19-github-data-ready-for-you-to-explore-with-bigquery/)
 - Hacker news: contains a full daily update of all the stories and comments from Hacker News.
     - Link: [Data](https://bigquery.cloud.google.com/table/bigquery-public-data:hacker_news.full) - [More info](https://medium.com/@hoffa/hacker-news-on-bigquery-now-with-daily-updates-so-what-are-the-top-domains-963d3c68b2e2)
@@ -78,7 +78,7 @@ cd notebooks
 docker-compose up
 ```
 
-- You should see a similar ouput in your terminal with a first time login token:
+- You should see a similar output in your terminal with the first time login token:
 
 ```
 Copy/paste this URL into your browser when you connect for the first time, to login with a token:
@@ -124,7 +124,7 @@ bash stop_gcloud_example.sh
 
 ### Test your DAG
 
-After connection and config variables has been set up using this [instruction](https://github.com/tuanavu/airflow-tutorial/tree/master/docs/bigquery_github_trends.md), you can now test and run your DAG.
+After connection and config variables have been set up using this [instruction](https://github.com/tuanavu/airflow-tutorial/tree/master/docs/bigquery_github_trends.md), you can now test and run your DAG.
 
 - Using the command below to test specific task in the DAG:
 
@@ -138,7 +138,6 @@ docker-compose -f docker-compose-gcloud.yml run --rm webserver airflow test [DAG
 # Task 1
 docker-compose -f docker-compose-gcloud.yml run --rm webserver airflow test bigquery_github_trends bq_check_githubarchive_day 2018-12-01
 
-# Task 2
 # Task 2
 docker-compose -f docker-compose-gcloud.yml run --rm webserver airflow test bigquery_github_trends bq_check_hackernews_full 2018-12-01
 ```
