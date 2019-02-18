@@ -16,7 +16,7 @@ __In this tutorial, we explore how to use Airflow variables__
 
 The [GitHub links](https://github.com/tuanavu/airflow-tutorial/tree/v0.7) for this tutorial
 
-## What is Airflow variables?
+## What are Airflow variables?
 
 - Variables are key-value stores in Airflow's metadata database.
 - It is used to store and retrieve arbitrary content or settings from the metadata database.
