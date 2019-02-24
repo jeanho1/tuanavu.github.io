@@ -9,7 +9,7 @@ toc: true
 toc_label: "Table of Contents"
 ---
 
-__Let's learn how to take advantage of free GPUs and TPUs to accelerate your Machine Learning projects__
+__In this tutorial, we will learn how to take advantage of free GPUs and TPUs to accelerate your Machine Learning projects__
 
 {% include video id="td5ciwor7kI" provider="youtube" %}
 
